@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from "@angular/core";
+import { Router } from "@angular/router";
 
 @Component({
   selector: "app-post-card",
@@ -11,4 +12,8 @@ export class PostCardComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  display() {
+    alert("You clicked");
+  }
 }
